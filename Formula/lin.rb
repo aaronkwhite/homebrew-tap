@@ -1,8 +1,8 @@
 class Lin < Formula
   desc "A fast, native CLI for Linear — manage issues, projects, cycles, and more"
   homepage "https://github.com/aaronkwhite/linear-cli"
-  url "https://crates.io/api/v1/crates/lincli/2026.4.1/download"
-  sha256 "b55ac81b3529004712e3d021f2b8679088dbfc353026097db7292dbeb4c523e3"
+  url "https://crates.io/api/v1/crates/lincli/2026.4.2/download"
+  sha256 "00f29d27267d78f3e280c453c969be0c852bd8ca0fa5576625b46b20a3a0e302"
   license "MIT"
 
   depends_on "rust" => :build
