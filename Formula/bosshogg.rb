@@ -1,27 +1,27 @@
 class Bosshogg < Formula
   desc "Agent-first PostHog CLI — flags, HogQL, insights, cohorts from the terminal"
   homepage "https://github.com/aaronkwhite/bosshogg-cli"
-  version "2026.4.0"
+  version "2026.4.1"
 
   on_macos do
     on_arm do
       url "https://github.com/aaronkwhite/bosshogg-cli/releases/download/v#{version}/bosshogg-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "fe9002f584486549063c9acc70164e7354511bbb1500cffb70763b1f0e696a8b"
+      sha256 "7065087b26f0aef856a2689c18ffb926bae1af7970dd1a0a3048a10c12cc9b01"
     end
     on_intel do
       url "https://github.com/aaronkwhite/bosshogg-cli/releases/download/v#{version}/bosshogg-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "9357d0e5971b8d67a751ecf9cfd75b66a6e2f62c825e14bb865501968816d688"
+      sha256 "331675ba367b00ed207101c87fee316fa2e2ade3482780967e85110a208886b3"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/aaronkwhite/bosshogg-cli/releases/download/v#{version}/bosshogg-#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fe56bc05e1c3ef0345c27197628c9d4a684421f078cf67457824b48e6947cb7f"
+      sha256 "978d03e92e0a22bc256843afdbfb9a57a76cada17d5159d708977d77a5eaec3e"
     end
     on_intel do
       url "https://github.com/aaronkwhite/bosshogg-cli/releases/download/v#{version}/bosshogg-#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ea844b443b2c100b7dcfe3e5ce5bddb44ce8654b3f7301d11598bb4afbbb9c5d"
+      sha256 "ca3685a736bd2fd96eb9f3582a3037a797344ce0e95a376fa6750e9c7bce60a6"
     end
   end
 
