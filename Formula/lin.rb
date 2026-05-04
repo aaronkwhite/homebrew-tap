@@ -1,26 +1,26 @@
 class Lin < Formula
   desc "A fast, native CLI for Linear — manage issues, projects, cycles, and more"
   homepage "https://github.com/aaronkwhite/linear-cli"
-  version "2026.4.21"
+  version "2026.5.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/aaronkwhite/linear-cli/releases/download/v#{version}/lin-aarch64-macos.tar.gz"
-      sha256 "eda468eceb605ec2ee2c7a12a371332814abe58243184290ea0ba7d81278e9ae"
+      sha256 "c2a88dfd9e45e8c727bc825cb494d89d7973c13d8ba681a3ee9ca416a2f9256e"
     else
       url "https://github.com/aaronkwhite/linear-cli/releases/download/v#{version}/lin-x86_64-macos.tar.gz"
-      sha256 "79e084fb18e2a0da6be3ea049cb1abd718b2f44f44281ab7b8a8e11c91dc4d36"
+      sha256 "9a689b92ecc0716e85b802bbfd649190c6f502cbac5e85e03c0541ae70cc8a75"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/aaronkwhite/linear-cli/releases/download/v#{version}/lin-aarch64-linux.tar.gz"
-      sha256 "ce72aa6e1c3ba690c74865679500d2461a93d607fb46992f7f895fc67efd0048"
+      sha256 "987621f4be2f13a5939bd998b66c2c850971a58c0fec75cd6f2d7db001753b7f"
     else
       url "https://github.com/aaronkwhite/linear-cli/releases/download/v#{version}/lin-x86_64-linux.tar.gz"
-      sha256 "f29855ece428cdd00ab73ef4309078f7752a3b97dde8704c791116a6b21be41e"
+      sha256 "f88a937f421af7d266b334bf46a330db0ec485ca7c241e8b98236eaeedc48e03"
     end
   end
 
